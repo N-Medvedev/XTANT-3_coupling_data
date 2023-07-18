@@ -1,10 +1,10 @@
 # Electron-ion (electron-phonon) coupling
 __Electron-phonon coupling and related parameters calculated with XTANT-3 code__
 
-This is the (updated) dataset reported in 
+This is the (updated) dataset for materials reported in 
 N. Medvedev, I. Milov, "_Electron-phonon coupling in metals at high electronic temperatures_", Phys. Rev. B. 102 (2020) 064302. https://doi.org/10.1103/PhysRevB.102.064302 
 
-The electron-ion (electron-phonon) coupling parameters and the electronic heat capacity as functions of the electronic temperature (Te) were calculated with the help of the nonperturbative dynamical coupling formalism. The method was implemented in the XTANT-3 code (https://github.com/N-Medvedev/XTANT-3) on the basis of tight-binding (TB) molecular dynamics (https://doi.org/10.48550/arXiv.2307.03953).
+The electron-ion (electron-phonon) coupling parameters and the electronic heat capacity as functions of the electronic temperature (Te) were calculated with the help of the nonperturbative dynamical coupling formalism. The method was implemented in the XTANT-3 code (https://github.com/N-Medvedev/XTANT-3) on the basis of tight-binding (TB) molecular dynamics (MD) (https://doi.org/10.48550/arXiv.2307.03953).
 
 The data are saved in the following directories:
 
@@ -36,7 +36,7 @@ The columns contain:
 1) Electron temperature in [K]
 2) Electronic heat capacity [J/(m^3K)]
 
-_Note #3: not all materials, for which the coupling parameter is present, may have the electron heat capacity_
+_Note #3: not all materials, for which the coupling parameter is present, may have a file with the electron heat capacity_
 
 
 ## Disclaimer
