@@ -2,13 +2,13 @@
 __Electron-phonon coupling and related parameters calculated with XTANT-3 code__
 
 This is the (updated) dataset for elemental materials reported in 
-[1] N. Medvedev, I. Milov, "_Electron-phonon coupling in metals at high electronic temperatures_", Phys. Rev. B. 102 (2020) 064302. https://doi.org/10.1103/PhysRevB.102.064302 
+* [1] N. Medvedev, I. Milov, "_Electron-phonon coupling in metals at high electronic temperatures_", Phys. Rev. B. 102 (2020) 064302. https://doi.org/10.1103/PhysRevB.102.064302 
 
 For AlSi allow in 
-[2] M. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021). https://doi.org/10.1140/epjd/s10053-021-00200-w
+* [2] M. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021). https://doi.org/10.1140/epjd/s10053-021-00200-w
 
 For two-dimensional carbon materials in 
-[3] N. Medvedev, I. Milov, B. Ziaja, "_Structural stability and electron‐phonon coupling in two‐dimensional carbon allotropes at high electronic and atomic temperatures_" Carbon trends 5, 100121 (2021). https://doi.org/10.1016/j.cartre.2021.100121
+* [3] N. Medvedev, I. Milov, B. Ziaja, "_Structural stability and electron‐phonon coupling in two‐dimensional carbon allotropes at high electronic and atomic temperatures_" Carbon trends 5, 100121 (2021). https://doi.org/10.1016/j.cartre.2021.100121
 
 The electron-ion (electron-phonon) coupling parameters and the electronic heat capacity as functions of the electronic temperature (Te) were calculated with the help of the nonperturbative dynamical coupling formalism. The method was implemented in the XTANT-3 code (https://github.com/N-Medvedev/XTANT-3) on the basis of tight-binding (TB) molecular dynamics (MD) (https://doi.org/10.48550/arXiv.2307.03953).
 
