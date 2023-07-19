@@ -4,7 +4,7 @@ __Electron-phonon coupling and related parameters calculated with XTANT-3 code__
 This is the (updated) dataset for elemental materials reported in 
 * [1] N. Medvedev, I. Milov, "_Electron-phonon coupling in metals at high electronic temperatures_", Phys. Rev. B. 102 (2020) 064302. https://doi.org/10.1103/PhysRevB.102.064302 
 
-For AlSi allow in 
+For Si-Al allow in 
 * [2] M. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021). https://doi.org/10.1140/epjd/s10053-021-00200-w
 
 For two-dimensional carbon materials in 
@@ -32,7 +32,7 @@ _Note #1: in some files there are multiple columns for various atomic temperatur
 
 _Note #2: the start and end of the grid of the electronic temperature are not fixed but differ in various files_
 
-If using this dataset, please cite Ref.[1] (or Ref.[2] for AlSi alloy).
+If using this dataset, please cite Ref.[1] (or Ref.[2] for SiAl alloy).
 
 ## Ce : electronic heat capacity
 
