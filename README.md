@@ -4,7 +4,7 @@ __Electron-phonon coupling and related parameters calculated with XTANT-3 code__
 This is the (updated) dataset for elemental materials reported in 
 * [1] N. Medvedev, I. Milov, "_Electron-phonon coupling in metals at high electronic temperatures_", Phys. Rev. B. 102 (2020) 064302. https://doi.org/10.1103/PhysRevB.102.064302 
 
-For Si-Al allow in 
+For Si-Al alloy in 
 * [2] M. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021). https://doi.org/10.1140/epjd/s10053-021-00200-w
 
 For two-dimensional carbon materials in 
