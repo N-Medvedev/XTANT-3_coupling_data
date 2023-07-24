@@ -14,7 +14,7 @@ The electron-ion (electron-phonon) coupling parameters and the electronic heat c
 
 The data are saved in the following directories:
 
-## G_e-ph : electron-ion (electron-phonon) coupling parameter
+## G_e-ph_metals : electron-ion (electron-phonon) coupling parameter
 
 The electron-ion (electron-phonon) coupling parameters are stored in this directory. The files are named as 
 * G_e-ph_[El]_[data].txt
@@ -34,7 +34,7 @@ _Note #2: the start and end of the grid of the electronic temperature are not fi
 
 If using this dataset, please cite Ref.[1] (or Ref.[2] for AlCu alloy).
 
-## Ce : electronic heat capacity
+## Ce_metals : electronic heat capacity
 
 The electronic heat capacity as the function of the electron temperature are stored in the files:
 * Ce_[El]_[data].txt
