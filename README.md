@@ -10,6 +10,9 @@ For AlCu alloy in
 For two-dimensional carbon materials in 
 * [3] N. Medvedev, I. Milov, B. Ziaja, "_Structural stability and electron‐phonon coupling in two‐dimensional carbon allotropes at high electronic and atomic temperatures_" Carbon trends 5, 100121 (2021). https://doi.org/10.1016/j.cartre.2021.100121
 
+For semiconductors in
+* [4] _Reference to be added, unpublished yet_
+
 The electron-ion (electron-phonon) coupling parameters and the electronic heat capacity as functions of the electronic temperature (Te) were calculated with the help of the nonperturbative dynamical coupling formalism. The method was implemented in the XTANT-3 code (https://github.com/N-Medvedev/XTANT-3) on the basis of tight-binding (TB) molecular dynamics (MD) (https://doi.org/10.48550/arXiv.2307.03953).
 
 The data are saved in the following directories:
