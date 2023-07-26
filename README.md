@@ -11,13 +11,13 @@ For two-dimensional carbon materials in
 * [3] N. Medvedev, I. Milov, B. Ziaja, "_Structural stability and electron‐phonon coupling in two‐dimensional carbon allotropes at high electronic and atomic temperatures_" Carbon trends 5, 100121 (2021). https://doi.org/10.1016/j.cartre.2021.100121
 
 For semiconductors in
-* [4] _Reference to be added, unpublished yet_
+* [4] N. Medvedev, "_Electron-phonon coupling in semiconductors at high electronic temperatures_" (2023). https://arxiv.org/abs/2307.13554 
 
 The electron-ion (electron-phonon) coupling parameters and the electronic heat capacity as functions of the electronic temperature (Te) were calculated with the help of the nonperturbative dynamical coupling formalism. The method was implemented in the XTANT-3 code (https://github.com/N-Medvedev/XTANT-3) on the basis of tight-binding (TB) molecular dynamics (MD) (https://doi.org/10.48550/arXiv.2307.03953).
 
 The data are saved in the following directories:
 
-## G_e-ph_metals : electron-ion (electron-phonon) coupling parameter
+## G_e-ph_metals : electron-ion (electron-phonon) coupling parameter in metals
 
 The electron-ion (electron-phonon) coupling parameters are stored in this directory. The files are named as 
 * G_e-ph_[El]_[data].txt
@@ -37,7 +37,7 @@ _Note #2: the start and end of the grid of the electronic temperature are not fi
 
 If using this dataset, please cite Ref.[1] (or Ref.[2] for AlCu alloy).
 
-## Ce_metals : electronic heat capacity
+## Ce_metals : electronic heat capacity in metals
 
 The electronic heat capacity as the function of the electron temperature are stored in the files:
 * Ce_[El]_[data].txt
@@ -49,15 +49,19 @@ The columns contain:
 
 _Note #3: not all materials, for which the coupling parameter is present, may have a file with the electron heat capacity_
 
+## G_e-ph_semiconductors : electron-ion (electron-phonon) coupling parameter in semiconductors
+
+The files naming, the format, and the units used are identical to those in metals.
+
+If using this dataset, please cite Ref.[4].
+
+## Ce_semiconductors : electronic heat capacity in semiconductors
+
+The files naming, the format, and the units used are identical to those in metals.
+
 ## G_e-ph_2d_materials : electron-ion (electron-phonon) coupling parameter in 2d materials
 
-The electron-ion (electron-phonon) coupling parameters in 2d carbon materials are stored in this directory. The files are named as 
-* G_e-ph_[El]_[data].txt
-
-with [El] being the chemical element; [data] being additional information.
-
-The files use the following format:
-
+The electron-ion (electron-phonon) coupling parameters in 2d carbon materials are stored in this directory. 
 First two or three lines, starting with the symbol '#' are commenting the columns and the units of the variables in them.
 The columns contain:
 1) Electron temperature in [K]
@@ -68,9 +72,6 @@ _Note #4: The coupling parameter may be converted into 3d units, if needed, assu
 If using this dataset, please cite Ref.[3].
 
 ## Ce_2d_materials : electronic heat capacity in 2d materials
-
-The electronic heat capacity as the function of the electron temperature are stored in the files:
-* Ce_[El]_[data].txt
 
 First two or three lines, starting with the symbol '#' are commenting the columns and the units of the variables in them.
 The columns contain:
