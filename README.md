@@ -1,5 +1,5 @@
-# Electron-ion (electron-phonon) coupling
-__Electron-phonon coupling and related parameters calculated with XTANT-3 code__
+# Two-temperature model parameters
+__Electron-temperature dependent parameters: electron-phonon coupling, electron heat capacity, and electron heat conductivity, calculated with XTANT-3 code__
 
 This is the (updated) dataset for elemental materials reported in 
 * [1] N. Medvedev, I. Milov, "_Electron-phonon coupling in metals at high electronic temperatures_", Phys. Rev. B. 102 (2020) 064302. https://doi.org/10.1103/PhysRevB.102.064302 
