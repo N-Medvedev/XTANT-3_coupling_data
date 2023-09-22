@@ -8,7 +8,7 @@ When using this dataset, please, cite the corresponding papers listed below.
 
 The electronic heat capacity, Ce(Te),  as a function of the electronic temperature (Te), is in the files named
 * Ce_[El]_[data].txt
-with [El] being the chemical element; [data] being additional information such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used).
+with [El] being the chemical element; [data] being additional information such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used for metals, but various ones for semiconductors).
 
 First two or three lines, starting with the symbol '#' are commenting the columns and the units of the variables in them.
 The columns contain:
@@ -29,7 +29,7 @@ _Note #2: for 2d-materials, the two-dimensional electronic heat capacity is in t
 
 The electron-ion (electron-phonon) coupling parameters, G_e-ph(Te), as a function of the electronic temperature (Te), are in the files are named as follows:
 * G_e-ph_[El]_[data].txt
-with [El] being the chemical element; [data] being additional information, such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used).
+with [El] being the chemical element; [data] being additional information, such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used for metals, but various ones for semiconductors).
 
 The data for elemental metals [3] (and SiAl alloy [4]), semiconductors [1], and 2d-carbon materials [2], are stored in the directories named, respectively:
 * G_e-ph_metals
@@ -68,7 +68,7 @@ The columns column contain:
 5) Electronic chemical potential [eV]
 6) Electronic heat capacity in [J/(m^3 K)]
 
-_Note #6: the electronic heat capacity in these files is calculated differently from that in the files Ce_[El]_[data].txt above. In the former, it is calculated for the ideal crystal structure averaged over 7x7x7 k-points [5]; whereas the latter was obtained in dynamical simulations at a given atomic temperature in the gamma-point [1,2].
+_Note #6: the electronic heat capacity in these files is calculated differently from that in the files 'Ce [El] [data].txt' above. In this section, it is calculated for the ideal crystal structure averaged over 7x7x7 k-points [5]; whereas the Electron-Heat-Capacity section was obtained in dynamical simulations at a given atomic temperature in the gamma-point [1,2]._
 
 
 ## Disclaimer
