@@ -53,7 +53,7 @@ _Note #5: For 2d materials, the two-dimensional electron-ion coupling parameter 
 
 The electronic heat conductivity data are stored in the files named:
 * K_[El]_[data].txt
-with [El] being the chemical element; [data] being additional information, such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used).
+with [El] being the chemical element; [data] being additional information, such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used for metals, but various ones for semiconductors).
 
 The data for metals and semiconductors [5] are stored in the directories named, respectively:
 * K_metals
