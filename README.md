@@ -1,84 +1,74 @@
 # Two-temperature model parameters
-__Electron-temperature dependent parameters: electron-phonon coupling, electron heat capacity, and electron heat conductivity, calculated with XTANT-3 code__
+__Electron-temperature dependent parameters: electron-phonon coupling, electron heat capacity, and electron heat conductivity, calculated with `XTANT-3` code__
 
-This is the (updated) dataset for elemental materials reported in 
-* [1] N. Medvedev, I. Milov, "_Electron-phonon coupling in metals at high electronic temperatures_", Phys. Rev. B. 102 (2020) 064302. https://doi.org/10.1103/PhysRevB.102.064302 
+The electron-ion (electron-phonon) coupling parameters, electronic heat capacity, and electronic heat conductivity as functions of the electronic temperature (Te) were calculated with the help of the nonperturbative dynamical coupling formalism, and Kubo-Greenwood method. The method was implemented in the `XTANT-3` code (https://github.com/N-Medvedev/XTANT-3).
+When using this dataset, please, cite the corresponding papers listed below.
 
-For AlCu alloy in 
-* [2] M. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021). https://doi.org/10.1140/epjd/s10053-021-00200-w
+## Electronic heat capacity
 
-For two-dimensional carbon materials in 
-* [3] N. Medvedev, I. Milov, B. Ziaja, "_Structural stability and electron‐phonon coupling in two‐dimensional carbon allotropes at high electronic and atomic temperatures_" Carbon trends 5, 100121 (2021). https://doi.org/10.1016/j.cartre.2021.100121
-
-For semiconductors in
-* [4] N. Medvedev, "_Electron-phonon coupling in semiconductors at high electronic temperatures_" (2023). https://arxiv.org/abs/2307.13554 
-
-The electron-ion (electron-phonon) coupling parameters and the electronic heat capacity as functions of the electronic temperature (Te) were calculated with the help of the nonperturbative dynamical coupling formalism. The method was implemented in the XTANT-3 code (https://github.com/N-Medvedev/XTANT-3) on the basis of tight-binding (TB) molecular dynamics (MD) (https://doi.org/10.48550/arXiv.2307.03953).
-
-The data are saved in the following directories:
-
-## G_e-ph_metals : electron-ion (electron-phonon) coupling parameter in metals
-
-The electron-ion (electron-phonon) coupling parameters are stored in this directory. The files are named as 
-* G_e-ph_[El]_[data].txt
-
-with [El] being the chemical element; [data] being additional information, such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used).
-
-The files use the following format:
-
-First two or three lines, starting with the symbol '#' are commenting the columns and the units of the variables in them.
-The columns contain:
-1) Electron temperature in [K]
-2) Electron-ion coupling in [W/(m^3 K)]
-
-_Note #1: in some files there are multiple columns for various atomic temperatures, listed in the third commentary line_
-
-_Note #2: the start and end of the grid of the electronic temperature are not fixed but differ in various files_
-
-If using this dataset, please cite Ref.[1] (or Ref.[2] for AlCu alloy).
-
-## Ce_metals : electronic heat capacity in metals
-
-The electronic heat capacity as the function of the electron temperature are stored in the files:
+The electronic heat capacity, Ce(Te),  as a function of the electronic temperature (Te), is in the files named
 * Ce_[El]_[data].txt
+with [El] being the chemical element; [data] being additional information such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used).
 
 First two or three lines, starting with the symbol '#' are commenting the columns and the units of the variables in them.
 The columns contain:
 1) Electron temperature in [K]
 2) Electronic heat capacity [J/(m^3 K)]
 
-_Note #3: not all materials, for which the coupling parameter is present, may have a file with the electron heat capacity_
+The data for metals, semiconductors [1], and 2d-carbon materials [2], are stored in the following directories, respectively:
+* Ce_metals
+* Ce_semiconductors
+* Ce_2d_materials
 
-## G_e-ph_semiconductors : electron-ion (electron-phonon) coupling parameter in semiconductors
+_Note #1: not all materials, for which the coupling parameter is present, may have a file with the electron heat capacity. A separate set of heat capacities is present in the files with the heat conductivity, see below._
 
-The files naming, the format, and the units used are identical to those in metals.
+_Note #2: for 2d-materials, the two-dimensional electronic heat capacity is in the units of [J/(m^2 K)]. The heat capacity may be converted into 3d units, if needed, assuming the layer thickness of 3.35 A._
 
-If using this dataset, please cite Ref.[4].
 
-## Ce_semiconductors : electronic heat capacity in semiconductors
+## Electron-phonon coupling
 
-The files naming, the format, and the units used are identical to those in metals.
+The electron-ion (electron-phonon) coupling parameters, G_e-ph(Te), as a function of the electronic temperature (Te), are in the files are named as follows:
+* G_e-ph_[El]_[data].txt
+with [El] being the chemical element; [data] being additional information, such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used).
 
-## G_e-ph_2d_materials : electron-ion (electron-phonon) coupling parameter in 2d materials
+The data for elemental metals [3] (and SiAl alloy [4]), semiconductors [1], and 2d-carbon materials [2], are stored in the directories named, respectively:
+* G_e-ph_metals
+* G_e-ph_semiconductors
+* G_e-ph_2d_materials
 
-The electron-ion (electron-phonon) coupling parameters in 2d carbon materials are stored in this directory. 
+The files use the following format:
 First two or three lines, starting with the symbol '#' are commenting the columns and the units of the variables in them.
 The columns contain:
 1) Electron temperature in [K]
-2) Two-dimensional electron-ion coupling parameter in [W/(m^2 K)]
+2) Electron-ion coupling in [W/(m^3 K)]
 
-_Note #4: The coupling parameter may be converted into 3d units, if needed, assuming the layer thickness of 3.35 A._
+_Note #3: in some files there are multiple columns for various atomic temperatures, listed in the third commentary line_
 
-If using this dataset, please cite Ref.[3].
+_Note #4: the start and end of the grid of the electronic temperature are not fixed but differ in various files_
 
-## Ce_2d_materials : electronic heat capacity in 2d materials
+_Note #5: For 2d materials, the two-dimensional electron-ion coupling parameter is in the units of [W/(m^2 K)]. It may be converted into 3d units, if needed, assuming the layer thickness of 3.35 A._
 
-First two or three lines, starting with the symbol '#' are commenting the columns and the units of the variables in them.
-The columns contain:
+
+## Electronic heat conductivity
+
+The electronic heat conductivity data are stored in the files named:
+* K_[El]_[data].txt
+with [El] being the chemical element; [data] being additional information, such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used).
+
+The data for metals and semiconductors [5] are stored in the directories named, respectively:
+* K_metals
+* K_semiconductors
+ 
+First two lines, starting with the symbol '#' are commenting the columns and the units of the variables in them.
+The columns column contain:
 1) Electron temperature in [K]
-2) Two-dimensional electronic heat capacity [J/(m^2 K)]
+2) Total electronic heat conductivity in [W/(m K)]
+3) Electron-phonon term in electronic heat conductivity in [W/(m K)]
+4) Electron-electron term in electronic heat conductivity in [W/(m K)]
+5) Electronic chemical potential [eV]
+6) Electronic heat capacity in [J/(m^3 K)]
 
-_Note #5: The heat capacity may be converted into 3d units, if needed, assuming the layer thickness of 3.35 A._
+_Note #6: the electronic heat capacity in these files is calculated differently from that in the files Ce_[El]_[data].txt above. In the former, it is calculated for the ideal crystal structure averaged over 7x7x7 k-points [5]; whereas the latter was obtained in dynamical simulations at a given atomic temperature in the gamma-point [1,2].
 
 
 ## Disclaimer
@@ -88,3 +78,18 @@ Although we endeavour to ensure that the code XTANT and results delivered are co
 This dataset is distributed _as is_ for non-commercial peaceful purposes only, such as research and education. It is __explicitly prohibited__ to use it for military-related or other than peaceful purposes.
 
 By using this repository, you agree with these terms and conditions.
+
+
+## References
+
+> [1] N. Medvedev, "_Electron-phonon coupling in semiconductors at high electronic temperatures_" (2023). https://arxiv.org/abs/2307.13554 
+
+> [2] N. Medvedev, I. Milov, B. Ziaja, "_Structural stability and electron‐phonon coupling in two‐dimensional carbon allotropes at high electronic and atomic temperatures_" Carbon trends 5, 100121 (2021). https://doi.org/10.1016/j.cartre.2021.100121
+
+> [3] N. Medvedev, I. Milov, "_Electron-phonon coupling in metals at high electronic temperatures_", Phys. Rev. B. 102 (2020) 064302. https://doi.org/10.1103/PhysRevB.102.064302 
+
+> [4] M. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021). https://doi.org/10.1140/epjd/s10053-021-00200-w
+
+> [5] N. Medvedev, F. Akhmetov, I. Milov, "_Electronic heat conductivity in two-temperature state_" (2023).
+
+
