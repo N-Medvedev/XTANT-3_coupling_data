@@ -60,7 +60,7 @@ The data for metals and semiconductors [5] are stored in the directories named, 
 * K_semiconductors
  
 First two lines, starting with the symbol '#' are commenting the columns and the units of the variables in them.
-The columns column contain:
+The columns contain:
 1) Electron temperature in [K]
 2) Total electronic heat conductivity in [W/(m K)]
 3) Electron-phonon term in electronic heat conductivity in [W/(m K)]
