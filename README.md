@@ -82,7 +82,7 @@ By using this repository, you agree with these terms and conditions.
 
 ## References
 
-> [1] N. Medvedev, "_Electron-phonon coupling in semiconductors at high electronic temperatures_" (2023). https://arxiv.org/abs/2307.13554 
+> [1] N. Medvedev, "_Electron-phonon coupling in semiconductors at high electronic temperatures_" Phys. Rev. B 108, 144305 (2023). https://doi.org/10.1103/PhysRevB.108.144305
 
 > [2] N. Medvedev, I. Milov, B. Ziaja, "_Structural stability and electron‐phonon coupling in two‐dimensional carbon allotropes at high electronic and atomic temperatures_" Carbon trends 5, 100121 (2021). https://doi.org/10.1016/j.cartre.2021.100121
 
