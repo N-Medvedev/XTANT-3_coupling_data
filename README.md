@@ -1,7 +1,7 @@
 # Two-temperature model parameters
-__Electron-temperature dependent parameters: electron-phonon coupling, electron heat capacity, and electron heat conductivity, calculated with `XTANT-3` code__
+__Electron-temperature dependent parameters: electron-phonon coupling (G), electron heat capacity (Ce), and electron heat conductivity (Ke), calculated with `XTANT-3` code__
 
-The electron-ion (electron-phonon) coupling parameters, electronic heat capacity, and electronic heat conductivity as functions of the electronic temperature (Te) were calculated with the help of the nonperturbative dynamical coupling formalism, and Kubo-Greenwood method. The method was implemented in the `XTANT-3` code (https://github.com/N-Medvedev/XTANT-3).
+The electron-ion (electron-phonon) coupling parameter, electronic heat capacity, and electronic heat conductivity as functions of the electronic temperature (Te) were calculated with the help of the nonperturbative dynamical coupling formalism and Kubo-Greenwood method. The method was implemented in the `XTANT-3` code (https://github.com/N-Medvedev/XTANT-3).
 When using this dataset, please, cite the corresponding papers listed below.
 
 ## Electronic heat capacity
@@ -88,7 +88,7 @@ By using this repository, you agree with these terms and conditions.
 
 > [3] N. Medvedev, I. Milov, "_Electron-phonon coupling in metals at high electronic temperatures_", Phys. Rev. B. 102 (2020) 064302. https://doi.org/10.1103/PhysRevB.102.064302 
 
-> [4] M. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021). https://doi.org/10.1140/epjd/s10053-021-00200-w
+> [4] N. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021). https://doi.org/10.1140/epjd/s10053-021-00200-w
 
 > [5] N. Medvedev, F. Akhmetov, I. Milov, "_Electronic heat conductivity in two-temperature state_" (2023).
 
