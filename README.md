@@ -87,6 +87,6 @@ This dataset is distributed _as is_ for non-commercial peaceful purposes only, s
 
 > [4] N. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021). https://doi.org/10.1140/epjd/s10053-021-00200-w
 
-> [5] N. Medvedev, F. Akhmetov, I. Milov, "_Electronic heat conductivity in two-temperature state_" preprint (2023).
+> [5] N. Medvedev, F. Akhmetov, I. Milov, "_Electronic heat conductivity in two-temperature state_" preprint (2023) https://arxiv.org/abs/2311.12458.
 
 
