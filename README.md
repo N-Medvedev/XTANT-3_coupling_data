@@ -1,4 +1,7 @@
 # Two-temperature model parameters
+
+[![DOI](https://zenodo.org/badge/667767658.svg)](https://zenodo.org/doi/10.5281/zenodo.10183635)
+
 __Electron-temperature dependent parameters: electron-phonon coupling (G), electron heat capacity (Ce), and electron heat conductivity (Ke), calculated with `XTANT-3` code__
 
 The electron-ion (electron-phonon) coupling parameter, electronic heat capacity, and electronic heat conductivity as functions of the electronic temperature (Te) were calculated with the help of the nonperturbative dynamical coupling formalism and Kubo-Greenwood method. The method was implemented in the `XTANT-3` code (https://github.com/N-Medvedev/XTANT-3).
