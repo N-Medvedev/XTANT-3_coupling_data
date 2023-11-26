@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: "Medvedev"
+    given-names: "Nikita"
+    orcid: https://orcid.org/0000-0003-0491-1090
+  - family-names: "Akhmetov"
+    given-names: "Fedor"
+  - family-names: "Milov"
+    given-names: "Igor"
+    orcid: "https://orcid.org/0000-0002-5596-0952"
+title: Two-temperature model (TTM) parameters (G, Ce, K) calculated with XTANT-3
+version: TTM_parameters
+date-released: 2023-11-23
+doi: 10.5281/zenodo.10183635
+url: "https://github.com/N-Medvedev/XTANT-3_coupling_data"
