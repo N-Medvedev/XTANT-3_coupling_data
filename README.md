@@ -84,14 +84,14 @@ This dataset is distributed _as is_ for non-commercial peaceful purposes only, s
 
 ## References
 
-> [1] N. Medvedev, "_Electron-phonon coupling in semiconductors at high electronic temperatures_" Phys. Rev. B 108, 144305 (2023). https://doi.org/10.1103/PhysRevB.108.144305
+> [1] N. Medvedev, "_Electron-phonon coupling in semiconductors at high electronic temperatures_" Phys. Rev. B 108, 144305 (2023) [https://doi.org/10.1103/PhysRevB.108.144305](https://doi.org/10.1103/PhysRevB.108.144305)
 
-> [2] N. Medvedev, I. Milov, B. Ziaja, "_Structural stability and electron‐phonon coupling in two‐dimensional carbon allotropes at high electronic and atomic temperatures_" Carbon trends 5, 100121 (2021). https://doi.org/10.1016/j.cartre.2021.100121
+> [2] N. Medvedev, I. Milov, B. Ziaja, "_Structural stability and electron‐phonon coupling in two‐dimensional carbon allotropes at high electronic and atomic temperatures_" Carbon trends 5, 100121 (2021). [https://doi.org/10.1016/j.cartre.2021.100121](https://doi.org/10.1016/j.cartre.2021.100121)
 
-> [3] N. Medvedev, I. Milov, "_Electron-phonon coupling in metals at high electronic temperatures_", Phys. Rev. B. 102 (2020) 064302. https://doi.org/10.1103/PhysRevB.102.064302 
+> [3] N. Medvedev, I. Milov, "_Electron-phonon coupling in metals at high electronic temperatures_", Phys. Rev. B. 102 (2020) 064302 [https://doi.org/10.1103/PhysRevB.102.064302](https://doi.org/10.1103/PhysRevB.102.064302)
 
-> [4] N. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021). https://doi.org/10.1140/epjd/s10053-021-00200-w
+> [4] N. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021)[https://doi.org/10.1140/epjd/s10053-021-00200-w](https://doi.org/10.1140/epjd/s10053-021-00200-w) 
 
-> [5] N. Medvedev, F. Akhmetov, I. Milov, "_Electronic heat conductivity in two-temperature state_" preprint (2023) https://arxiv.org/abs/2311.12458.
+> [5] N. Medvedev, F. Akhmetov, I. Milov, "_Electronic heat conductivity in two-temperature state_" Int. J. Heat and Mass Transfer 228, 125674 (2024) [https://doi.org/10.1016/j.ijheatmasstransfer.2024.125674](https://doi.org/10.1016/j.ijheatmasstransfer.2024.125674)
 
 
