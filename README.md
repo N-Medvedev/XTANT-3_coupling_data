@@ -7,7 +7,7 @@ __Electron-temperature dependent parameters: electron-phonon coupling (G), elect
 The electron-ion (electron-phonon) coupling parameter, electronic heat capacity, and electronic heat conductivity as functions of the electronic temperature (Te) were calculated with the help of the nonperturbative dynamical coupling formalism and Kubo-Greenwood method. The method was implemented in the `XTANT-3` code (https://github.com/N-Medvedev/XTANT-3).
 When using this dataset, please, cite the corresponding papers listed below.
 
-Materials included – fcc metals: Al, Ca, Ni, Cu, Sr, Y, Zr, Rh, Pd, Ag, Ir, Pt, Au, and Pb; hcp metals: Mg, Sc, Ti, Co, Zn, Tc, Ru, Cd, Hf, Re, and Os; bcc metals: V, Cr, Fe, Nb, Mo, Ba, Ta, and W; other metals: Sn, Ga, In, Mn, Te, and Se; semimetal graphite; semiconductors – group IV: Si, Ge, and SiC; group III-V: AlAs, AlP, GaP, GaAs, and GaSb; oxides: ZnO, TiO2, and Cu2O; and others: PbI2, ZnS, and B4C; and 2d carbon-based materials.
+Materials included – fcc metals: Al, Ca, Ni, Cu, Sr, Y, Zr, Rh, Pd, Ag, Ir, Pt, Au, Pb, and stainless steel; hcp metals: Mg, Sc, Ti, Co, Zn, Tc, Ru, Cd, Hf, Re, and Os; bcc metals: V, Cr, Fe, Nb, Mo, Ba, Ta, and W; other metals: Sn, Ga, In, Mn, Te, and Se; semimetal graphite; semiconductors – group IV: Si, Ge, and SiC; group III-V: AlAs, AlP, GaP, GaAs, and GaSb; oxides: ZnO, TiO2, and Cu2O; and others: PbI2, ZnS, and B4C; and 2d carbon-based materials.
 
 ## Electronic heat capacity
 
@@ -36,7 +36,7 @@ The electron-ion (electron-phonon) coupling parameters, G_e-ph(Te), as a functio
 * G_e-ph_[El]_[data].txt
 with [El] being the chemical element; [data] being additional information, such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used for metals, but various ones for semiconductors).
 
-The data for elemental metals [3] (and SiAl alloy [4]), semiconductors [1], and 2d-carbon materials [2], are stored in the directories named, respectively:
+The data for elemental metals [3], SiAl alloy [4], stainless steel [6]; semiconductors [1]; and 2d-carbon materials [2], are stored in the directories named, respectively:
 * G_e-ph_metals
 * G_e-ph_semiconductors
 * G_e-ph_2d_materials
@@ -93,5 +93,7 @@ This dataset is distributed _as is_ for non-commercial peaceful purposes only, s
 > [4] N. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021)[https://doi.org/10.1140/epjd/s10053-021-00200-w](https://doi.org/10.1140/epjd/s10053-021-00200-w) 
 
 > [5] N. Medvedev, F. Akhmetov, I. Milov, "_Electronic heat conductivity in two-temperature state_" Int. J. Heat and Mass Transfer 228, 125674 (2024) [https://doi.org/10.1016/j.ijheatmasstransfer.2024.125674](https://doi.org/10.1016/j.ijheatmasstransfer.2024.125674)
+
+> [6] N. Medvedev "_Stainless steel in an electronically excited state_" preprint: [https://arxiv.org/abs/2504.19798](https://arxiv.org/abs/2504.19798) (2025)
 
 
