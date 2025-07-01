@@ -19,7 +19,7 @@ Materials included:
 - oxides semiconductors: ZnO, TiO2, and Cu2O
 - other semiconductors: PbI2, ZnS, and B4C
 - chalcogenides: CdS, CdTe, PbS, and ITO (In_{1.718}O_{2.928}Sn_{0.176})
-- and 2d carbon-based materials
+- and 2d carbon-based materials: graphene, pentaheptite (M-graphene), bithenylene network
 
 ## Electronic heat capacity
 
