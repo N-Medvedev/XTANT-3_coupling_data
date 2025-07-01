@@ -7,7 +7,7 @@ __Electron-temperature dependent parameters: electron-phonon coupling (G), elect
 The electron-ion (electron-phonon) coupling parameter, electronic heat capacity, and electronic heat conductivity as functions of the electronic temperature (Te) were calculated with the help of the nonperturbative dynamical coupling formalism and Kubo-Greenwood method. The method was implemented in the `XTANT-3` code (https://github.com/N-Medvedev/XTANT-3).
 When using this dataset, please, cite the corresponding papers listed below.
 
-Materials included – fcc metals: Al, Ca, Ni, Cu, Sr, Y, Zr, Rh, Pd, Ag, Ir, Pt, Au, Pb, stainless steel, and CrMnFeCoNi high-entropy alloy; hcp metals: Mg, Sc, Ti, Co, Zn, Tc, Ru, Cd, Hf, Re, and Os; bcc metals: V, Cr, Fe, Nb, Mo, Ba, Ta, W, and SiAl alloy; other metals: Sn, Ga, In, Mn, Te, and Se; semimetal graphite; semiconductors – group IV: Si, Ge, and SiC; group III-V: AlAs, AlP, GaP, GaAs, and GaSb; oxides: ZnO, TiO2, and Cu2O; and others: PbI2, ZnS, and B4C; and 2d carbon-based materials.
+Materials included – fcc metals: Al, Ca, Ni, Cu, Sr, Y, Zr, Rh, Pd, Ag, Ir, Pt, Au, Pb, stainless steel, and CrMnFeCoNi high-entropy alloy; hcp metals: Mg, Sc, Ti, Co, Zn, Tc, Ru, Cd, Hf, Re, and Os; bcc metals: V, Cr, Fe, Nb, Mo, Ba, Ta, W, and SiAl alloy; other metals: Sn, Ga, In, Mn, Te, and Se; semimetal graphite; semiconductors – group IV: Si, Ge, and SiC; group III-V: AlAs, AlP, GaP, GaAs, and GaSb; oxides: ZnO, TiO2, and Cu2O; others: PbI2, ZnS, and B4C; chalcogenides: CdS, CdTe, PbS, and ITO (In_{1.718}O_{2.928}Sn_{0.176}); and 2d carbon-based materials.
 
 ## Electronic heat capacity
 
