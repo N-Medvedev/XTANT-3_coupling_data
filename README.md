@@ -36,7 +36,7 @@ The electron-ion (electron-phonon) coupling parameters, G_e-ph(Te), as a functio
 * G_e-ph_[El]_[data].txt
 with [El] being the chemical element; [data] being additional information, such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used for metals, but various ones for semiconductors).
 
-The data for elemental metals [3], SiAl alloy [4], stainless steel [6]; semiconductors [1]; and 2d-carbon materials [2], are stored in the directories named, respectively:
+The data for elemental metals [3], SiAl alloy [4], stainless steel [6], CrMnFeCoNi [7]; semiconductors [1], chalcogenides [8]; and 2d-carbon materials [2], are stored in the directories named, respectively:
 * G_e-ph_metals
 * G_e-ph_semiconductors
 * G_e-ph_2d_materials
@@ -96,4 +96,6 @@ This dataset is distributed _as is_ for non-commercial peaceful purposes only, s
 
 > [6] N. Medvedev "_Stainless steel in an electronically excited state_" preprint: [https://arxiv.org/abs/2504.19798](https://arxiv.org/abs/2504.19798) (2025)
 
+> [7] N. Medvedev "_Thermodynamic properties of CrMnFeCoNi high entropy alloy at elevated electronic temperatures_" preprint: [https://arxiv.org/abs/2504.19798](https://doi.org/10.48550/arXiv.2506.23171) (2025)
 
+> [8] A. Artímez Peña, N. Medvedev (_in preparation_) (2025)
