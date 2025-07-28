@@ -16,9 +16,8 @@ Materials included:
 - semimetals: graphite
 - group IV semiconductors: Si, Ge, and SiC
 - group III-V semiconductors: AlAs, AlP, GaP, GaAs, and GaSb
-- oxides semiconductors: ZnO, TiO2, and Cu2O
-- other semiconductors: PbI2, B4C, In2O3, ITO (In_{1.718}O_{2.928}Sn_{0.176})
 - chalcogenides: CdS, CdTe, PbS, ZnS
+- oxides and other semiconductors: ZnO, TiO2, and Cu2O, PbI2, B4C, In2O3, ITO (In_{1.718}O_{2.928}Sn_{0.176})
 - 2d materials: graphene, pentaheptite (M-graphene), bithenylene network
 
 ## Electronic heat capacity
