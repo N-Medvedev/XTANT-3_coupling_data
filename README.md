@@ -17,8 +17,8 @@ Materials included:
 - group IV semiconductors: Si, Ge, and SiC
 - group III-V semiconductors: AlAs, AlP, GaP, GaAs, and GaSb
 - oxides semiconductors: ZnO, TiO2, and Cu2O
-- other semiconductors: PbI2, ZnS, and B4C
-- chalcogenides: CdS, CdTe, PbS, and ITO (In_{1.718}O_{2.928}Sn_{0.176})
+- other semiconductors: PbI2, B4C, In2O3, ITO (In_{1.718}O_{2.928}Sn_{0.176})
+- chalcogenides: CdS, CdTe, PbS, ZnS
 - 2d materials: graphene, pentaheptite (M-graphene), bithenylene network
 
 ## Electronic heat capacity
@@ -48,7 +48,7 @@ The electron-ion (electron-phonon) coupling parameters, G_e-ph(Te), as a functio
 * G_e-ph_[El]_[data].txt
 with [El] being the chemical element; [data] being additional information, such as the structure of the material, or the tight-binding parametrization used (e.g., DFTB) (if the parametrization is not listed, the default NRL parametrization is used for metals, but various ones for semiconductors).
 
-The data for elemental metals [3], SiAl alloy [4], stainless steel [6], CrMnFeCoNi [7]; semiconductors [1], chalcogenides [8]; and 2d-carbon materials [2], are stored in the directories named, respectively:
+The data for elemental metals [3], SiAl alloy [4], stainless steel [6], CrMnFeCoNi [7]; semiconductors [1], chalcogenides and ITO [8]; and 2d-carbon materials [2], are stored in the directories named, respectively:
 * G_e-ph_metals
 * G_e-ph_semiconductors
 * G_e-ph_2d_materials
