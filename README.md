@@ -101,7 +101,7 @@ This dataset is distributed _as is_ for non-commercial peaceful purposes only, s
 
 > [3] N. Medvedev, I. Milov, "_Electron-phonon coupling in metals at high electronic temperatures_", Phys. Rev. B. 102 (2020) 064302 [https://doi.org/10.1103/PhysRevB.102.064302](https://doi.org/10.1103/PhysRevB.102.064302)
 
-> [4] N. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021)[https://doi.org/10.1140/epjd/s10053-021-00200-w](https://doi.org/10.1140/epjd/s10053-021-00200-w) 
+> [4] N. Medvedev, I. Milov, "_Contribution of inter- and intraband transitions into electron–phonon coupling in metals_", Eur. Phys. J. D 75, 212 (2021) [https://doi.org/10.1140/epjd/s10053-021-00200-w](https://doi.org/10.1140/epjd/s10053-021-00200-w) 
 
 > [5] N. Medvedev, F. Akhmetov, I. Milov, "_Electronic heat conductivity in two-temperature state_" Int. J. Heat and Mass Transfer 228, 125674 (2024) [https://doi.org/10.1016/j.ijheatmasstransfer.2024.125674](https://doi.org/10.1016/j.ijheatmasstransfer.2024.125674)
 
@@ -109,4 +109,4 @@ This dataset is distributed _as is_ for non-commercial peaceful purposes only, s
 
 > [7] N. Medvedev "_Thermodynamic properties of CrMnFeCoNi high entropy alloy at elevated electronic temperatures_" preprint: [https://arxiv.org/abs/2504.19798](https://doi.org/10.48550/arXiv.2506.23171) (2025)
 
-> [8] A. Artímez Peña, N. Medvedev (_in preparation_) (2025)
+> [8] A. Artímez Peña, N. Medvedev "_Ultrafast X-ray interaction with photovoltaic materials: Thermal and nonthermal responses_" preprint: [https://arxiv.org/abs/2508.11549](https://arxiv.org/abs/2508.11549) (2025)
