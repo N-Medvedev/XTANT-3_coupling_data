@@ -9,9 +9,9 @@ When using this dataset, please, cite the corresponding papers listed below.
 
 Materials included:
 
-- fcc metals: Al, Ca, Ni, Cu, Sr, Y, Zr, Rh, Pd, Ag, Ir, Pt, Au, Pb, stainless steel ($\mathrm{Fe_{0.5875}Cr_{0.25}Mn_{0.09}Ni_{0.07}C_{0.0025}}$), and CrMnFeCoNi high-entropy alloy
+- fcc metals: Al, Ca, Ni, Cu, Sr, Y, Zr, Rh, Pd, Ag, Ir, Pt, Au, Pb, stainless steel ($\mathrm{Fe_{0.5875}Cr_{0.25}Mn_{0.09}Ni_{0.07}C_{0.0025}}$), CrMnFeCoNi and HfNbTaTiZr high-entropy alloys
 - hcp metals: Mg, Sc, Ti, Co, Zn, Tc, Ru, Cd, Hf, Re, and Os
-- bcc metals: V, Cr, Fe, Nb, Mo, Ba, Ta, W, and SiAl alloy
+- bcc metals: V, Cr, Fe, Nb, Mo, Ba, Ta, W, SiAl alloy, MoNbTaVW high-entropy alloy
 - other metals: Sn, Ga, In, Mn, Te, and Se
 - semimetals: graphite
 - group IV semiconductors: Si, Ge, and SiC
