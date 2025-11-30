@@ -105,8 +105,8 @@ This dataset is distributed _as is_ for non-commercial peaceful purposes only, s
 
 > [5] N. Medvedev, F. Akhmetov, I. Milov, "_Electronic heat conductivity in two-temperature state_" Int. J. Heat and Mass Transfer 228, 125674 (2024) [https://doi.org/10.1016/j.ijheatmasstransfer.2024.125674](https://doi.org/10.1016/j.ijheatmasstransfer.2024.125674)
 
-> [6] N. Medvedev "_Stainless steel in an electronically excited state_" preprint: [https://arxiv.org/abs/2504.19798](https://arxiv.org/abs/2504.19798) (2025)
+> [6] N. Medvedev "_Stainless steel in an electronically excited state_" J. Phys. D: Appl. Phys. 58, 425301 (2025) [https://doi.org/10.1088/1361-6463/ae0fa3](https://doi.org/10.1088/1361-6463/ae0fa3)
 
-> [7] N. Medvedev "_Thermodynamic properties of CrMnFeCoNi high entropy alloy at elevated electronic temperatures_" preprint: [https://arxiv.org/abs/2504.19798](https://doi.org/10.48550/arXiv.2506.23171) (2025)
+> [7] N. Medvedev "_Thermodynamic properties of CrMnFeCoNi high entropy alloy at elevated electronic temperatures_" Sci. Rep. 15, 37335 (2025) [https://doi.org/10.1038/s41598-025-21367-x](https://doi.org/10.1038/s41598-025-21367-x)
 
 > [8] A. Artímez Peña, N. Medvedev "_Ultrafast X-ray interaction with photovoltaic materials: Thermal and nonthermal responses_" preprint: [https://arxiv.org/abs/2508.11549](https://arxiv.org/abs/2508.11549) (2025)
